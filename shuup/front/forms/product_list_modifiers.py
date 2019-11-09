@@ -161,7 +161,7 @@ class SortProductListByPrice(SimpleProductListModifier):
         return [
             ("sort", [
                 ("price_a", _("Price - Low to High")),
-                ("price_d", _("Price - High to L")),
+                ("price_d", _("Price - High to Low")),
             ]),
         ]
 
